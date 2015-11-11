@@ -36,13 +36,13 @@ app.listen(global.port, function(){
 });
 
 //CONTROLADORES
-var sqintefaceCtrl = require('./routes/sqinterface');
+/*var sqintefaceCtrl = require('./routes/sqinterface');
 
 var sqinteface = express.Router();
 
 sqinteface.route('/controlPanel').get(sqintefaceCtrl.getControlPanel);
 	
-app.use('/api', sqinteface);
+app.use('/api', sqinteface);*/
 //FIN CONTROLADORES
 
 // INICIALIZACIÓN DE SERVIDOR
@@ -58,7 +58,7 @@ function initialize()
 
 // LOAD DATABASE
 
-function loadDatabase()
+/*function loadDatabase()
 {
 	var appDir = path.dirname(require.main.filename);
 	var configPath = appDir + "\\db\\db_config.json";
@@ -78,6 +78,6 @@ function loadDatabase()
 		
 		dbInitialLoad = null;
 	});
-}
+}*/
 
 //END LOAD DATABASE
