@@ -1,0 +1,16 @@
+{
+	"dbserver": {
+		"host": "localhost",
+		"port": "27017",
+		"databaseName": "pwdb"
+	},
+	"dbpayload": {
+		"adaptations": [
+			{"name": "colorCombination", "jsFile": "colorCombination.js", "htmlFile": "colorCombination.html", "cssFile": "colorCombination.css", "size": "L", "options": ["colorCombination"]},
+			{"name": "zoom", "jsFile": "zoom.js", "htmlFile": "zoom.html", "cssFile": "zoom.css", "size": "S", "options": ["zoom"]},
+			{"name": "text", "jsFile": "text.js", "htmlFile": "text.html", "cssFile": "text.css", "size": "L", "options": ["lineHeight", "highlightLink", "fontType"]},
+			{"name": "cursorSize", "jsFile": "cursorSize.js", "htmlFile": "cursorSize.html", "cssFile": "cursorSize.css", "size": "M", "options": ["cursorSize"]},
+			{"name": "synonyms", "jsFile": "synonyms.js", "htmlFile": "synonyms.html", "cssFile": "synonyms.css", "size": "M", "options": ["synonyms"]}
+		]
+	}
+}
